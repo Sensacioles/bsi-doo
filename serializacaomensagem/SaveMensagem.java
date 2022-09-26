@@ -20,5 +20,6 @@ public class SaveMensagem {
                 arqSerialized)) {
             objSerialized.writeObject(message);
         }
+        input.close();
     }
 }
