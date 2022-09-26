@@ -5,3 +5,4 @@ Conteúdos:
 * Fábrica Abstrata
 * Builder 
 * Singleton
+* Serialização
