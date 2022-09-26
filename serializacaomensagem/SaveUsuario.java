@@ -20,5 +20,6 @@ public class SaveUsuario {
                 arqSerialized)) {
             objSerialized.writeObject(user);
         }
+        input.close();
     }
 }
