@@ -6,3 +6,4 @@ Conteúdos:
 * Builder 
 * Singleton
 * Serialização
+* Leitura de arquivo .csv
