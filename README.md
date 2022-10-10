@@ -7,3 +7,4 @@ Conteúdos:
 * Singleton
 * Serialização
 * Leitura de arquivo .csv
+* Adapter
