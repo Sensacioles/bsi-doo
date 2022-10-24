@@ -1,11 +1,12 @@
-# Desenvolvimento Orientado a Objetos
+# Object-Oriented Development / Object-Oriented Programming II
 
-Conteúdos:
-* Fábrica Concreta
-* Fábrica Abstrata
+Content:
+* Facytory
+* Abstract Factory
 * Builder 
 * Singleton
-* Serialização
-* Leitura de arquivo .csv
+* Serialization
+* CSV reader
 * Adapter
 * Observer
+* Fly Weight
