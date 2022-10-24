@@ -8,3 +8,4 @@ Conteúdos:
 * Serialização
 * Leitura de arquivo .csv
 * Adapter
+* Observer
