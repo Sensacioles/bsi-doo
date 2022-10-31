@@ -10,3 +10,4 @@ Content:
 * Adapter
 * Observer
 * Fly Weight
+* Chain of Responsibility (in progress)
