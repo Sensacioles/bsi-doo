@@ -26,16 +26,33 @@ public class Pasta implements Elemento{
     public int getNumPastas(ArrayList<Pasta> lsfo){
         return lsfo.size();
     }
+    public int getTotal(){
+        return this.getNumArquivos(this.lstFile)+this.getNumPastas(this.lstFolder);
+    }
     public void addArquivo(ArrayList<Arquivo> lsfi, Arquivo file){
         lsfi.add(file);
     }
     public void addPasta(ArrayList<Pasta> lsfo, Pasta folder){
         lsfo.add(folder);
     }
+    public void rmArquivo(ArrayList<Arquivo> lsfi, int i){
+        lsfi.remove(i);
+    }
+    public void rmPasta(ArrayList<Pasta> lsfo, int i){
+        lsfo.remove(i);
+    }
     @Override
     public int obterTamanho() {
-        for(int i=0;i<=this.size();i++){
-
-        } //somatoria
+        int tam = 0;
+        Elemento elem;
+        for(int i=0;i<(this.getNumPastas(this.lstFolder));i++){
+            elem = this.getPasta(lstFolder, i);
+            tam += elem.obterTamanho();
+            for(int j=0;j<this.getNumArquivos(this.lstFile);j++){
+                elem = this.getArquivo(this.lstFile, j);
+                tam += elem.obterTamanho();
+            }
+        }
+        return tam;
     }
 }
