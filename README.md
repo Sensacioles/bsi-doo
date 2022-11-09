@@ -10,4 +10,7 @@ Content:
 * Adapter
 * Observer
 * Fly Weight
-* Chain of Responsibility (in progress)
+* Chain of Responsibility
+* Composite (In progress)
+* Template (TBD)
+* Command (TBD)
