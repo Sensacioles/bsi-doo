@@ -11,6 +11,6 @@ Content:
 * Observer
 * Fly Weight
 * Chain of Responsibility
-* Composite (In progress)
-* Template (TBD)
-* Command (TBD)
+* Composite
+* Template
+* Command
