@@ -13,4 +13,4 @@ Content:
 * Chain of Responsibility
 * Composite
 * Template
-* Command
+* Command (TBD)
